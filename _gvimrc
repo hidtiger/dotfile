@@ -1,0 +1,22 @@
+
+
+set ts=4
+set sw=4
+
+set bs=2
+
+set go-=T
+set go-=r
+set go-=m
+
+colorscheme evening
+se cmdheight=1
+
+se lines=60
+se columns=110
+
+se gfn=Takaoゴシック\ 11
+se linespace=1
+
+winp 100 80 
+
