@@ -32,7 +32,6 @@ map <C-p> :cp<ENTER>
 
 let loaded_matchparen = 1
 
-
 se hid
 
 inoremap " ""<left>
