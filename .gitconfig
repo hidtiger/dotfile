@@ -1,0 +1,19 @@
+[user]
+	name = Your Name
+	email = you@example.com
+[alias]
+	di = diff
+	dn = diff --name-only
+	co = checkout
+	ci = commit
+ 	st = status
+ 	br = branch
+	l1 = log --pretty=\"format:%C(yellow)%h %C(cyan)%ai %Creset%s\" -10
+	l2 = log --pretty=\"format:%C(yellow)%h %C(cyan)%ai %Creset%s\" -20
+	l3 = log --pretty=\"format:%C(yellow)%h %C(cyan)%ai %Creset%s\" -30
+	l4 = log --pretty=\"format:%C(yellow)%h %C(cyan)%ai %Creset%s\" -40
+	l5 = log --pretty=\"format:%C(yellow)%h %C(cyan)%ai %Creset%s\" -50
+[color]
+	ui = true
+[core]
+	editor = vim
