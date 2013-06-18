@@ -26,9 +26,11 @@ se sw=2
 se bs=2
 se si
 se laststatus=2
+se ignorecase
 
 map <C-n> :cn<ENTER>
 map <C-p> :cp<ENTER>
+map <C-b> :bn<ENTER>
 
 let loaded_matchparen = 1
 
