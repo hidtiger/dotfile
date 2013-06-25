@@ -19,7 +19,7 @@ se nobackup
 "se tw=80
 se popt=header:2
 
-set statusline=%<%f\ %m%r%h%w%{'['.(&fenc!=''?&fenc:&enc).']['.&ff.']['.&ft.']'}%=%l,%c%V%8P
+set statusline=%<%f\ %m%r%h%w%{'['.(&fenc!=''?&fenc:&enc).']['.&ff.']['.&ft.']'}%{fugitive#statusline()}%=%l,%c%V%8P
 se ts=2
 se sw=2
 
