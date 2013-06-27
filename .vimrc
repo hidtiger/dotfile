@@ -1,5 +1,4 @@
 
-
 se nocompatible
 
 execute pathogen#infect()
@@ -47,4 +46,4 @@ inoremap <s-cr> <end><cr>
 se enc=utf-8
 
 colorscheme evening
-
+se cmdheight=1
