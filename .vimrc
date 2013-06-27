@@ -1,5 +1,4 @@
 
-
 se nocompatible
 
 execute pathogen#infect()
@@ -19,16 +18,18 @@ se nobackup
 "se tw=80
 se popt=header:2
 
-set statusline=%<%f\ %m%r%h%w%{'['.(&fenc!=''?&fenc:&enc).']['.&ff.']['.&ft.']'}%=%l,%c%V%8P
+set statusline=%<%f\ %m%r%h%w%{'['.(&fenc!=''?&fenc:&enc).']['.&ff.']['.&ft.']'}%{fugitive#statusline()}%=%l,%c%V%8P
 se ts=2
 se sw=2
 
 se bs=2
 se si
 se laststatus=2
+se ignorecase
 
 map <C-n> :cn<ENTER>
 map <C-p> :cp<ENTER>
+map <C-b> :bn<ENTER>
 
 let loaded_matchparen = 1
 
@@ -45,4 +46,4 @@ inoremap <s-cr> <end><cr>
 se enc=utf-8
 
 colorscheme evening
-
+se cmdheight=1
